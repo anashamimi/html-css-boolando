@@ -46,11 +46,51 @@ nav{
     align-items: center;
 }
 
+.row{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
 .logo{
     width: 100px;
 }
 
 li i{
     padding-left: 10px;
+}
+
+.card{
+    padding: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.card img{
+    width: 100%;
+}
+
+.sconto{
+    background-color: var(--sconto);
+    color: var(--primary-color);
+    padding: 3px 5px;
+    position: absolute;
+    bottom: 75px;
+    left: 10px;
+}
+
+.sostenibilita{
+    background-color: var(--bg-sostenibilita);
+    color: var(--primary-color);
+    padding: 3px 5px;
+    position: absolute;
+    bottom: 75px;
+    left: 60px;
+}
+
+.heart{
+    font-size: 30px;
 }
 
