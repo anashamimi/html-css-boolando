@@ -31,10 +31,16 @@ ul{
 
 header{
     background-color: var(--bg-header);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
 }
 
 nav{
     height: 55px;
+    padding: 0 10px;
 }
 
 .primary-color{
