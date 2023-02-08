@@ -5,3 +5,52 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+:root{
+    --bg-header: #ff6900;
+    --primary-color: #ffffff;
+    --sconto: #ff0000;
+    --bg-sostenibilita: #008000;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.debug{
+    border: 1px solid black;
+}
+
+ul{
+    list-style: none;
+}
+/* header */
+
+.bg-header{
+    background-color: var(--bg-header);
+}
+
+nav{
+    height: 55px;
+}
+
+.primary-color{
+    color: var(--primary-color);
+}
+.b-flex{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 100px;
+}
+
+li i{
+    padding-left: 10px;
+}
+
