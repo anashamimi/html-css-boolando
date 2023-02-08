@@ -76,12 +76,13 @@ li i{
     height: 545px;
 }
 
+
 .sconto{
     background-color: var(--sconto);
     color: var(--primary-color);
     padding: 3px 5px;
     position: absolute;
-    bottom: 100px;
+    bottom: 135px;
     left: 10px;
 }
 
@@ -90,7 +91,7 @@ li i{
     color: var(--primary-color);
     padding: 3px 5px;
     position: absolute;
-    bottom: 100px;
+    bottom: 135px;
     left: 60px;
 }
 
@@ -146,4 +147,34 @@ footer{
 i{
     font-size: 20px;
     cursor: pointer;
+}
+
+/* Cambio immagine e cuore*/
+
+.img1:hover{
+    content: url(../img/1b.webp);
+}
+
+.img2:hover{
+    content: url(../img/2b.webp);
+}
+
+.img3:hover{
+    content: url(../img/3b.webp);
+}
+
+.img4:hover{
+    content: url(../img/4b.webp);
+}
+
+.img5:hover{
+    content: url(../img/5b.webp);
+}
+
+.img6:hover{
+    content: url(../img/6b.webp);
+}
+
+.heart:hover{
+    color: var(--sconto);
 }
