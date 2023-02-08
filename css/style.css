@@ -12,6 +12,7 @@
     --primary-color: #ffffff;
     --sconto: #ff0000;
     --bg-sostenibilita: #008000;
+    --bg-footer: #1a1a1a;
 }
 
 .container{
@@ -28,7 +29,7 @@ ul{
 }
 /* header */
 
-.bg-header{
+header{
     background-color: var(--bg-header);
 }
 
@@ -39,19 +40,12 @@ nav{
 .primary-color{
     color: var(--primary-color);
 }
+
 .b-flex{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
-}
-
-.row{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    padding-top: 50px;
 }
 
 .logo{
@@ -62,8 +56,17 @@ li i{
     padding-left: 10px;
 }
 
+/* main */
+.row{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
 .card{
-    padding: 10px;
+    padding: 40px 10px;
     position: relative;
     cursor: pointer;
 }
@@ -99,7 +102,7 @@ li i{
     font-size: 30px;
     padding: 10px 15px;
     position: absolute;
-    top: 20px;
+    top: 50px;
     right: 10px;
     background-color: var(--primary-color);
     
@@ -124,4 +127,23 @@ li i{
     font-weight: bold;
 }
 
-/* Inizio footer */
+/* footer */
+
+footer{
+    background-color: var(--bg-footer);
+    padding: 25px 0;
+}
+
+.info{
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.info:hover{
+    text-decoration: underline;
+}
+
+i{
+    font-size: 20px;
+    cursor: pointer;
+}
